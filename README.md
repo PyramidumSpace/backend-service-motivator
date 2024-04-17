@@ -1,2 +1,2 @@
-# Pyramidum-BE-service-motivator
+# backend-service-motivator
 Microservice for motivation system
