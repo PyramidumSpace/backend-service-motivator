@@ -13,7 +13,7 @@ type Config struct {
 }
 
 type GRPC struct {
-	Port    uint16        `yaml:"port" env-default:"6969"`
+	Port    uint16        `yaml:"port" env-default:"6970"`
 	Timeout time.Duration `yaml:"timeout" env-default:"5s"`
 }
 
