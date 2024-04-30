@@ -1,0 +1,12 @@
+grpc:
+  port: 6970
+  timeout: 5s
+postgresql:
+  host: db
+  port: 5432
+  user: service-motivator-owner
+  password: service-motivator-owner
+  dbname: service-motivator
+  sslmode: disable
+migrations:
+  path: "./migrations"
