@@ -16,7 +16,7 @@ const (
 	SSLVerifyCa   sslMode = "verify-ca"
 )
 
-func NewDB(host string, port int, user string, password string, dbname string, sslMode sslMode) (*gorm.DB, error) {
+func NewDB(host string, port uint16, user string, password string, dbname string, sslMode sslMode) (*gorm.DB, error) {
 	const op = "database.connection.postgres.NewDB"
 
 	dsn := fmt.Sprintf(
