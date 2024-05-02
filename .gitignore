@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+# JetBrains IDEs
+.idea
+
+# .env file with environment variables (shold be restored from .env.example)
+.env
